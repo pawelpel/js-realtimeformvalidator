@@ -18,6 +18,8 @@ article {
     border-width: 2px;
     border-color: #577F7F;
     padding: 5px;
+    
+    background-color: #6D858C;
 }
 
 input {
@@ -75,9 +77,9 @@ input:not([type="submit"]):active + .requirements{
 }
 
 .allCorrect {
-    border:1px solid rgb(110, 255, 115);
+    border:2px solid rgb(110, 255, 115);
 }
 
 .notCorrect {
-    border:1px solid #ff5757;
+    border:2px solid #ff5757;
 }
