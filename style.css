@@ -1,0 +1,83 @@
+body {
+    background-color: #9EC2CC;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    color: #58777F;
+    margin: 0 auto;
+    width: 45%;
+}
+
+article {
+    margin: 0 auto;
+    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #577F7F;
+    padding: 5px;
+}
+
+input {
+    border:1px solid white;
+    display: block;
+    margin-bottom: 5px; 
+    --moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 50px;
+    width: 100%; 
+    font-size: 0.9em;
+}
+
+.radious {
+    border-radius: 6px; 
+    -moz-border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+}
+
+#submit {
+    width: 50%;
+    margin-left: 50%;
+    background-color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #577F7F;
+}
+
+.requirements {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
+input:not([type="submit"]) + .requirements {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 2s easy-out;
+}
+
+input:not([type="submit"]):hover + .requirements,
+input:not([type="submit"]):focus + .requirements,
+input:not([type="submit"]):active + .requirements{
+    max-height: 500px;
+    transition: max-height 2s easy-in;
+}
+
+.correct {
+    color: rgb(110, 255, 115);
+}
+
+.incorrect {
+    color: #ff5757;
+}
+
+.allCorrect {
+    border:1px solid rgb(110, 255, 115);
+}
+
+.notCorrect {
+    border:1px solid #ff5757;
+}

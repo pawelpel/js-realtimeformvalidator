@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Realtime Form Validation</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+    
+    </head>
+    <body>
+        <h1>Realtime Form Validation</h1>
+        <article class="radious">
+            <form id='form'>
+                
+                
+                <label id="username">
+                    <input class="radious" type="text" placeholder="Username" required>
+                    <ul class="requirements">
+                        <li>At least 3 characters</li>
+                        <li>Only letters</li>
+                    </ul>
+                </label>
+
+                
+                <label id="email">
+                    <input class="radious" type="email" placeholder="Email" required>
+                    <ul class="requirements">
+                        <li>Matching the email pattern</li>
+                    </ul>
+                </label>
+                
+                <label id="password">
+                    <input class="radious" type="password" placeholder="Password" required>
+                    <ul class="requirements">
+                        <li>At least 8 characters</li>
+                        <li>At least 1 number</li>
+                        <li>At least 1 non-alphanumeric character</li>
+                        <li>At least 1 uppercase character</li>
+                    </ul>
+                </label>
+                
+                
+                <label id="repeatedPassword">
+                    <input class="radious" type="password" placeholder="Repeat Password" required>
+                    <ul class="requirements">
+                        <li>Matching the password</li>
+                    </ul>
+                </label>
+                
+                <input id="submit" class="radious" type="submit" value="Submit"/>
+            </form>
+        </article>
+    </body>
+</html>
