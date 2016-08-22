@@ -80,7 +80,7 @@ $(document).ready(function(){
                     this.correct(this.requirements[0]);
                 }
                 
-                if(this.inputValue.match(/[^a-z]/gi)){
+                if(this.inputValue.match(/[^a-z]/gi) || this.inputValue == ''){
                     this.incorrect(this.requirements[1]);
                 } else {
                     this.correct(this.requirements[1]);
