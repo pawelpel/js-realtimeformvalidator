@@ -1,4 +1,4 @@
-$(document).ready(function(){
+document.addEventListener('DOMContentLoaded', function(){
    
     var form = document.querySelector('form');
     
@@ -171,4 +171,4 @@ $(document).ready(function(){
         
     var validator = Validator(form);
     
-})
+}, false);
