@@ -1,12 +1,12 @@
 body {
-    background-color: #9EC2CC;
+    background-color: #FFF63B;
 }
 
 h1 {
     text-align: center;
     display: block;
     font-family: sans-serif;
-    color: #58777F;
+    color: #7F7B1D;
     margin: 0 auto;
     width: 45%;
 }
@@ -16,10 +16,10 @@ article {
     width: 50%;
     border-style: solid;
     border-width: 2px;
-    border-color: #577F7F;
+    border-color: #FFBFB82C9292;
     padding: 5px;
     
-    background-color: #6D858C;
+    background-color: #7F7B1D;
 }
 
 input {
@@ -44,9 +44,10 @@ input {
     width: 50%;
     margin-left: 50%;
     background-color: white;
+    font-size: 18px;
     font-family: sans-serif;
     font-style: normal;
-    color: #577F7F;
+    color: #403D0F;
 }
 
 .requirements {
@@ -69,17 +70,17 @@ input:not([type="submit"]):active + .requirements{
 }
 
 .correct {
-    color: rgb(110, 255, 115);
+    color: rgb(0, 255, 49);
 }
 
 .incorrect {
-    color: #ff5757;
+    color: rgb(255, 65, 65);
 }
 
 .allCorrect {
-    border:2px solid rgb(110, 255, 115);
+    border:3px solid rgb(0, 255, 49);
 }
 
 .notCorrect {
-    border:2px solid #ff5757;
+    border:3px solid rgb(255, 65, 65);
 }
